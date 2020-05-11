@@ -1,0 +1,36 @@
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin-top: 15px;
+
+}
+
+nav {
+  border-bottom: 1.75px solid purple;
+  text-transform: uppercase;
+
+}
+
+nav li {
+  padding-right: 50px;
+  padding-left: 10px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
+img {
+   padding: 20px;
+   width: 700px;
+   height: auto;
+ }
+
+#border {
+  margin-top: 30px;
+  border: 1px solid purple;
+}

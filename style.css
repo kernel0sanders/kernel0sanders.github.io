@@ -14,7 +14,7 @@ body {
 
 /* NAVIGATION */
 nav {
-  border-bottom: 1.75px solid purple;
+  border-bottom: 5px solid purple;
   text-transform: uppercase;
   background-color: white;
 
@@ -46,7 +46,11 @@ nav li {
   font-family: 'Bebas Neue', cursive;
   letter-spacing: .30rem;
   text-transform: uppercase;
-  margin-top: 2rem;
+  padding: 60px 0;
+}
+
+.title {
+  font-size: 3.5rem;
 }
 
 /* IMAGE BOX */
@@ -58,7 +62,7 @@ nav li {
  }
 
 #border {
-  margin-top: 30px;
+  margin-top: 10px;
   border: 2px solid purple;
 }
 
@@ -78,7 +82,7 @@ nav li {
 /* ABOUT */
 .aboutc {
   font-family: 'Bebas Neue', cursive;
-  font-size: 3rem;
+  font-size: 4.5rem;
   letter-spacing: .3rem;
   text-transform: uppercase;
   color: #4d0099;
@@ -95,10 +99,12 @@ nav li {
 }
 
 #section3 {
-  margin-top: 20px;
-  padding-top: 20px;
+  margin: 20px 0;
+  padding: 20px 0;
   border-top: 1.75px solid purple;
+  border-bottom: 1.75px solid purple;
 }
+
 
 .calvin {
   margin-top: 30px;
@@ -119,6 +125,7 @@ footer p {
   line-height: 25px;
 }
 
+
 .footer-top li a:hover {
   background-color: purple;
   color: white;
@@ -135,9 +142,11 @@ footer p {
   padding: 10px 5px;
 }
 
+
+
 .section-one h3 {
   font-weight: bold;
-  text-shadow: 1px 1px purple;
+  text-shadow: .5px .75px purple;
   letter-spacing: .20rem;
 }
 
@@ -175,6 +184,10 @@ footer p {
   height: 40px;
   display: inline-block;
   border-radius: 50%;
+}
+
+.section-three a:hover {
+  background-color: purple;
 }
 
 .section-three a i {

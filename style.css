@@ -3,7 +3,9 @@
 body {
   font-family: 'PT Sans Narrow', sans-serif;
   margin: 15px;
-  background-image: linear-gradient(purple, blue);
+  background-image: linear-gradient(purple, #4d0099
+);
+  position: relative;
 
 }
 
@@ -36,7 +38,7 @@ nav li {
 }
 
 .nav-item a:hover {
-  color: purple !important;
+  color: #4d0099 !important;
 
 }
 
@@ -49,7 +51,7 @@ nav li {
 }
 
 /* IMAGE BOX */
-.img-fluid {
+.photo {
    padding: 20px;
    width: 700px;
    height: auto;
@@ -58,7 +60,7 @@ nav li {
 
 #border {
   margin-top: 30px;
-  border: 1px solid purple;
+  border: 2px solid purple;
 }
 
 /* CARDS */
@@ -68,9 +70,45 @@ nav li {
 }
 
 
+.border-dark {
+  background-color: white;
+  color: black;
+}
+
+
+/* ABOUT */
+.aboutc {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  color: #4d0099;
+}
+
+.about {
+  font-size: 1.25rem;
+}
+
+#section2 {
+  margin-top: 40px;
+  padding-top: 80px;
+  border-top: 1.75px solid purple;
+}
+
+#section3 {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1.75px solid purple;
+}
+
+.calvin {
+  margin-top: 30px;
+}
 
 .quote1 {
   line-height: 40px;
+  color: purple;
+  letter-spacing: .25rem;
 }
 
 .quote {
@@ -94,60 +132,60 @@ footer p {
   text-transform: uppercase;
 }
 
-.segment-one .segment-two .segment-three .segment-four {
+.section-one .section-two .section-three .section-four {
   padding: 10px 5px;
 }
 
-.segment-one h3 {
+.section-one h3 {
   font-weight: bold;
   text-shadow: 1px 1px purple;
   letter-spacing: .20rem;
 }
 
-.segment-two h3:before {
+.section-two h3:before {
   content: '|';
   color: purple;
   padding-right: 10px;
 }
 
-.segment-two ul {
+.section-two ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.segment-two ul li {
+.section-two ul li {
   border-bottom: 1px solid purple;
   line-height: 30px;
 }
 
-.segment-two ul li a {
+.section-two ul li a {
   color: black;
   text-decoration: none;
 }
 
-.segment-three h3:before {
+.section-three h3:before {
   content: '|';
   color: purple;
   padding-right: 10px;
 }
 
-.segment-three a {
-  background: purple;
+.section-three a {
+  background: #4d0099;
   width: 40px;
   height: 40px;
   display: inline-block;
   border-radius: 50%;
 }
 
-.segment-three a i {
+.section-three a i {
   font-size: 20px;
   color: white;
   padding: 10px 12px;
 }
 
 
-.segment-four h3:before {
+.section-four h3:before {
   content: '|';
   color: purple;
   padding-right: 10px;

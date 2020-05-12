@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(violet, #e8e8e8);
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-family: 'Noto Sans KR', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+table, tr, th, td {
+  /* border: 1px black solid; */
+  border-collapse: collapse;
+  border-radius: 15px 30px;
+}
+
+table {
+  margin: 200px auto 100px auto;
+  width: 80%;
+}
+
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #e8e8e8;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+th, .hey {
+  background-color: teal;
+  opacity: .85;
+}
+
+footer {
+  margin: 200px auto 100px auto;
+  width: 80%;
+  background-color: teal;
+  border-radius: 30px 15px;
+}

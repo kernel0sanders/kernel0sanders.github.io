@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Caleb Sanders CIS-130-102 5/12/2020 -->
+  <!-- AKA BIG fan of purple -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -17,7 +19,7 @@
   <script src="https://kit.fontawesome.com/c41e9fef3d.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <!-- Main Container -->
   <div class="container-fluid">
     <div class="container">
@@ -33,13 +35,13 @@
               <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">About Me</a>
+              <a href="#section2" class="nav-link">About Me</a>
             </li>
             <li class="nav-item">
-              <a href="firstwebsite/index.html" target="_blank" class="nav-link">My first</a>
+              <a href="firstwebsite/index.html" target="_blank" class="nav-link">My Work</a>
             </li>
             <li class="nav-item">
-              <a href="https://www.otc.edu/" target="_blank" class="nav-link">My School</a>
+              <a href="https://www.otc.edu/" target="_blank" class="nav-link">Education</a>
             </li>
           </ul>
         </div>
@@ -52,47 +54,76 @@
       </div>
       <!-- Main Image -->
       <div class="container text-center" id="border">
-        <img src="Images/CloudsRest.JPG" class="img-fluid" alt="Clouds Rest Portrait">
+        <img src="Images/keyboard.jpg" class="img-fluid photo" alt="Clouds Rest Portrait">
       </div>
       <!-- CARDS -->
-      <div class="card-group">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Where I Learned</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="https://news.otc.edu/otc-faculty-students-honored-mcca/excellence-in-education-kristin-markley/" class="btn btn-dark">Click Me!</a>
+      <div class="card-deck">
+        <div class="card rounded-0 border-dark m-3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Thank You</h5>
+            <p class="card-text">I came back to school without a lick of coding knowledge, so without exemplary instruction, I would not be here.</p>
+            <a href="https://news.otc.edu/otc-faculty-students-honored-mcca/excellence-in-education-kristin-markley/" target="_blank" class="btn btn-dark">Check It!</a>
           </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="card rounded-0 border-dark m-3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Spring Classes</h5>
+            <p class="card-text">A look back on the Spring semester and the courses I was able to attend while at OTC.</p>
+            <a href="schedule/index.html" target="_blank" class="btn btn-dark">Check It!</a>
           </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="card rounded-0 border-dark m-3">
+          <div class="card-body text-center">
+            <h5 class="card-title">My First Webpage</h5>
+            <p class="card-text">I still have a lot to learn but I find solace looking at where I started and how far I have come.</p>
+            <a href="firstwebsite/index.html" target="_blank" class="btn btn-dark">Check It!</a>
           </div>
         </div>
       </div>
-      <div class="container text-center">
-        <img class="img-fluid" src="Images/calvinh.gif" alt="Free to Fly" id="calvin">
+      <!-- ABOUT ME -->
+      <div class="container-fluid" id="section2">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="aboutc">About Caleb</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="about">Caleb is in his first semester back on a college campus, studying to get a degree in Computer Science. Prior to starting classes Spring of 2020, he had zero experience with code of any language. After a succesful semester, he plans to continue his education with classes in advanced web development, Javascript, and eventually, Python. His ideal job would put him on a team with other motivated individuals working in the field of AI, with the ability to work remotely in order to fulfill his passion for traveling.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="Images/CloudsRest.JPG" class="img-fluid" alt="Clouds Rest Portrait">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="section3">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="Images/glo.jpg" class="img-fluid" alt="Glo Cleaners Kodak Ektar">
+          </div>
+          <div class="col-md-6 text-right">
+            <p>This is going to say something about my film photography hobby.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center calvin">
+        <img class="img-fluid photo" src="Images/calvinh.gif" alt="Free to Fly" id="calvin">
         <h3 class="quote1">“There's never enough time to do all the nothing you want.”</h3>
         <h4 class="quote">― Bill Watterson</h4>
       </div>
     </div>
+    <!-- FOOTER -->
     <footer>
       <div class="footer-top">
         <div class="container">
           <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+            <div class="col-md-3 col-sm-6 col-xs-12 section-one">
               <h3>Caleb Sanders &copy; 2020 </h3>
               <p>Drafted, Designed, and Stressed over by Caleb Sanders for CIS 130-102.</p>
               <p>All rights reserved.</p>
 
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+            <div class="col-md-3 col-sm-6 col-xs-12 section-two">
               <h3>References</h3>
               <ul>
                 <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap 4</a></li>
@@ -101,28 +132,23 @@
               </ul>
 
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 segment-three">
+            <div class="col-md-3 col-sm-6 col-xs-12 section-three">
               <h3>Keep In Touch</h3>
               <a href="#"><i class="fab fa-facebook-square"></i></a>
               <a href="#"><i class="fab fa-linkedin"></i></a>
               <a href="#"><i class="fab fa-twitter"></i></a>
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 segment-four">
+            <div class="col-md-3 col-sm-6 col-xs-12 section-four">
               <h3>Subscribe!</h3>
               <p>Please provide email to stay up to date.</p>
               <form action="Images/CloudsRest.jpg" method="get">
                 <input type="email" placeholder="example@email.com">
                 <input type="submit" value="Subscribe">
               </form>
-
             </div>
-
-
           </div>
-
         </div>
-
       </div>
     </footer>
 

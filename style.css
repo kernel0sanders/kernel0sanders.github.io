@@ -20,12 +20,14 @@ nav {
 }
 
 nav li {
-  padding-right: 50px;
+  padding-right: 20px;
   padding-left: 10px;
+  display: inline-block;
 }
 
 .navbar-brand {
   font-size: 1.5rem;
+  letter-spacing: .3rem;
   padding-left: 10px;
 }
 
@@ -34,12 +36,14 @@ nav li {
 }
 
 .nav-item a:hover {
-  color: blue !important;
+  color: purple !important;
 
 }
 
 /* HEADER */
 .header {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: .30rem;
   text-transform: uppercase;
   margin-top: 2rem;
 }
@@ -57,12 +61,21 @@ nav li {
   border: 1px solid purple;
 }
 
-/* GRID */
-.my-row {
-  border: 3px solid purple;
-  height: 300px;
+/* CARDS */
+
+.card-group {
+  margin: 15px 0px;
 }
 
+
+
+.quote1 {
+  line-height: 40px;
+}
+
+.quote {
+  text-transform: uppercase;
+}
 /* FOOTER */
 
 footer p {
@@ -75,6 +88,7 @@ footer p {
 }
 
 .footer-top {
+  background-color: white;
   margin: 5px;
   padding: 40px 0;
   text-transform: uppercase;
@@ -85,8 +99,9 @@ footer p {
 }
 
 .segment-one h3 {
-  color: purple;
   font-weight: bold;
+  text-shadow: 1px 1px purple;
+  letter-spacing: .20rem;
 }
 
 .segment-two h3:before {

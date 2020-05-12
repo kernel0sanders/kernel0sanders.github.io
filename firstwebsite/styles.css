@@ -1,0 +1,95 @@
+/* Caleb Sanders*/
+/* Our First Website */
+/* 1-30-2020 */
+
+body {
+    
+    font-family: 'Barlow Condensed', sans-serif;
+
+    background-image: linear-gradient(#f9f2ec, #e6f2ff);
+    
+    font-variant: small-caps;
+    
+    text-transform: uppercase;
+}
+
+nav {
+
+    
+    font-size: 1.15em;
+    
+    text-align: center;
+    
+}
+
+
+header {
+    
+    text-align: center;
+    
+    text-shadow: 3px 3px 3px grey;
+    
+    letter-spacing: 5px;
+    
+    font-weight: bold;
+    
+    font-size: 3em;
+    
+}
+
+h1 {
+    
+    text-align: center;
+}
+article {
+
+    text-align: center;
+    
+}
+
+section {
+    
+    text-align: center;
+}
+
+.hobbies {
+    
+    text-align: center;
+    
+
+}
+
+.caleb {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+    height: 480px;
+    box-shadow: 7px 7px 5px grey;
+}
+
+.amir {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+    box-shadow: 7px 7px 5px grey;
+
+}
+
+.amircaption {
+    
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+footer {
+    
+    font-size: 1.3em;
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: #732673;
+}

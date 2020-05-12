@@ -59,7 +59,7 @@ nav li {
 
 /* GRID */
 .my-row {
-  border: 3px dotted green;
+  border: 3px solid purple;
   height: 300px;
 }
 

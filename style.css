@@ -1,12 +1,21 @@
+
+
 body {
   font-family: 'PT Sans Narrow', sans-serif;
-  margin-top: 15px;
+  margin: 15px;
+  background-image: linear-gradient(purple, blue);
 
 }
 
+.container-fluid {
+  background-color: white;
+}
+
+/* NAVIGATION */
 nav {
   border-bottom: 1.75px solid purple;
   text-transform: uppercase;
+  background-color: white;
 
 }
 
@@ -24,13 +33,107 @@ nav li {
   font-size: 1.25rem;
 }
 
-img {
+.nav-item a:hover {
+  color: blue !important;
+
+}
+
+/* HEADER */
+.header {
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+/* IMAGE BOX */
+.img-fluid {
    padding: 20px;
    width: 700px;
    height: auto;
+   z-index: -1;
  }
 
 #border {
   margin-top: 30px;
   border: 1px solid purple;
+}
+
+/* GRID */
+.my-row {
+  border: 3px dotted green;
+  height: 300px;
+}
+
+/* FOOTER */
+
+footer p {
+  line-height: 25px;
+}
+
+.footer-top li a:hover {
+  background-color: purple;
+  color: white;
+}
+
+.footer-top {
+  margin: 5px;
+  padding: 40px 0;
+  text-transform: uppercase;
+}
+
+.segment-one .segment-two .segment-three .segment-four {
+  padding: 10px 5px;
+}
+
+.segment-one h3 {
+  color: purple;
+  font-weight: bold;
+}
+
+.segment-two h3:before {
+  content: '|';
+  color: purple;
+  padding-right: 10px;
+}
+
+.segment-two ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.segment-two ul li {
+  border-bottom: 1px solid purple;
+  line-height: 30px;
+}
+
+.segment-two ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.segment-three h3:before {
+  content: '|';
+  color: purple;
+  padding-right: 10px;
+}
+
+.segment-three a {
+  background: purple;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.segment-three a i {
+  font-size: 20px;
+  color: white;
+  padding: 10px 12px;
+}
+
+
+.segment-four h3:before {
+  content: '|';
+  color: purple;
+  padding-right: 10px;
 }
